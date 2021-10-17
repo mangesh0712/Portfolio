@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React,{useEffect} from "react";
+import { useHistory } from 'react-router-dom'
+import SideBar from "./components/SideBar";
+import Router from "./components/Router";
 
 function App() {
+  const history = useHistory();
+  useEffect(() => {
+    history.push("/aboutme")
+
+  }, [])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="flex lg:flex-row  flex-col ">
+        {/* SIDEBAR */}
+        <SideBar />
+        <span className="w-full lg:h-screen h-auto lg:w-3/12"></span>
+        {/* ROUTER */}
+        <Router />
+      </div>
     </div>
   );
 }
