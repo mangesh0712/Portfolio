@@ -26,12 +26,12 @@ export const NavItem = ({ title, path, id, activatedId, setactivatedId }) => {
   const selected = id === activatedId ? true : false;
   return (
     <>
-      <Link to={path}>
+      <Link to={path} className={`${selected ? "pointer-events-none" : ""}`}>
         <div
           onClick={() => setactivatedId(id)}
           className={`${
-            selected ? "text-gray-100" : "text-gray-500"
-          } hover:text-gray-100 group transform hover:`}
+            selected ? "text-gray-100 cursor-not-allowed" : "text-gray-500"
+          } hover:text-gray-100 group transform `}
         >
           <span className="text-sm md:text-md">{title}</span>
           <FontAwesomeIcon
