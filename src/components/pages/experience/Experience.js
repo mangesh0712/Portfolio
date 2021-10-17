@@ -9,7 +9,6 @@ function Portfolio() {
   const history = useHistory();
   useEffect(() => {
     history.push(`${match.path}/fdc`);
-    alert("f")
   }, []);
 
   const [activatedId, setactivatedId] = useState(1);
