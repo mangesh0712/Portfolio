@@ -48,7 +48,7 @@ export const PROJECTS = [
   {
     title: "msk clothing",
     img: "/images/mskclothing.png",
-    path: "",
+    path: "https://cranky-varahamihira-f93d97.netlify.app",
     description: `“Tailwind CSS is the only framework that I've seen scale on large
               teams. It’s easy to customize, adapts to any design, and the build
               size is tiny.”`,
@@ -65,7 +65,7 @@ export const PROJECTS = [
   {
     title: "youtube clone",
     img: "/images/youtube.png",
-    path: "",
+    path: "https://stupefied-bassi-531f50.netlify.app/",
     description: `“Tailwind CSS is the only framework that I've seen scale on large
               teams. It’s easy to customize, adapts to any design, and the build
               size is tiny.”`,

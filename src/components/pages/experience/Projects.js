@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { PROJECTS } from "../../../data";
 
 function Projects() {
@@ -17,15 +17,23 @@ function Projects() {
 export default Projects;
 
 const Project = ({ title, img, path, description, techUsed }) => {
+  const [clicked, setClicked] = useState(false);
+
+  useEffect(() => {
+    if (clicked) {
+      window.location.assign(path);
+    }
+  });
   const [isHovering, setIsHovered] = useState(false);
   const onMouseEnter = () => setIsHovered(true);
   const onMouseLeave = () => setIsHovered(false);
   return (
     <figure className="md:flex my-4  rounded-xl p-8 md:p-0 bg-gray-50">
       <img
+        onClick={() => setClicked(true)}
         onMouseEnter={onMouseEnter}
         onMouseLeave={onMouseLeave}
-        className={`w-32 ${
+        className={`${
           !isHovering && "filter"
         } grayscale h-32 w-32 transform hover:scale-105 cursor-pointer object-cover md:w-56 md:h-48 md:rounded-none rounded-fi mx-auto`}
         src={img}
