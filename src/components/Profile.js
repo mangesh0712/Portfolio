@@ -1,11 +1,11 @@
 import React from "react";
-import { PP } from '../data'
+import { PATHS } from '../data'
 
 function Profile() {
   return (
     <div className="flex flex-col mt-10 items-center justify-center text-gray-300">
       <img
-        src={PP}
+        src={PATHS.PP}
         alt=""
         className="rounded-full filter grayscale h-40 w-40 object-contain"
       />

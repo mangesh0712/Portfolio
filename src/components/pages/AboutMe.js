@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { PP } from "../../data";
+import { PATHS } from "../../data";
 
 function AboutMe() {
   const [isHovering, setIsHovered] = useState(false);
@@ -58,7 +58,7 @@ function AboutMe() {
               className={`absolute ${
                 !isHovering ? "grayscale": "saturate-100"
               } filter object-cover w-80 h-72 bottom-4 right-4`}
-              src={PP}
+              src={PATHS.PP}
               alt=""
             />
           </div>

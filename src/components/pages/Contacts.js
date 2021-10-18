@@ -6,6 +6,7 @@ import {
   faGithubAlt,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+import { PATHS } from "../../data";
 
 function Contacts() {
   return (
@@ -19,25 +20,25 @@ function Contacts() {
           title="E-mail"
           address="mangeshkhandale327@gamil.com"
           icon={faEnvelope}
-          path="mailto:mangeshkhandale327@gmail.com"
+          path={PATHS.GMAIL}
         />
         <ContactItems
           title="Github"
           address="mangesh0712"
           icon={faGithubAlt}
-          path="https://github.com/mangesh0712"
+          path={PATHS.GITHUB}
         />
         <ContactItems
           title="LinkedIn"
           address="mangesh0712"
           icon={faLinkedin}
-          path="https://www.linkedin.com/in/mangesh0712/"
+          path={PATHS.LINKEDIN}
         />
         <ContactItems
           title="Instagram"
           address="Mangesh Khandale"
           icon={faInstagram}
-          path="mailto:mangeshkhandale327@gmail.com"
+          path={PATHS.INSTA}
         />
       </div>
     </div>

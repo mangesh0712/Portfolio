@@ -6,6 +6,7 @@ import {
   faGithubSquare,
   faInstagramSquare,
 } from "@fortawesome/free-brands-svg-icons";
+import { PATHS } from "../data";
 
 function SocialSites() {
   return (
@@ -14,19 +15,10 @@ function SocialSites() {
         get in touch
       </span>
       <div className=" text-gray-500 space-x-5">
-        <SocialIcon
-          path="mailto:mangeshkhandale327@gmail.com"
-          icon={faEnvelope}
-        />
-        <SocialIcon
-          path="https://github.com/mangesh0712"
-          icon={faGithubSquare}
-        />
-        <SocialIcon
-          path="https://www.linkedin.com/in/mangesh0712/"
-          icon={faLinkedinIn}
-        />
-        <SocialIcon path="" icon={faInstagramSquare} />
+        <SocialIcon path={PATHS.GMAIL} icon={faEnvelope} />
+        <SocialIcon path={PATHS.GITHUB} icon={faGithubSquare} />
+        <SocialIcon path={PATHS.LINKEDIN} icon={faLinkedinIn} />
+        <SocialIcon path={PATHS.LINKEDIN} icon={faInstagramSquare} />
       </div>
     </div>
   );

@@ -1,4 +1,10 @@
-export const PP = "/images/man2.png";
+export const PATHS = {
+  PP: "/images/man2.png",
+  INSTA: "https://www.instagram.com/mangesh.707/",
+  GMAIL: "mailto:mangeshkhandale327@gmail.com",
+  LINKEDIN: "https://www.linkedin.com/in/mangesh0712/",
+  GITHUB: "https://github.com/mangesh0712",
+};
 export const NAVBAR_DATA = [
   {
     id: 1,
