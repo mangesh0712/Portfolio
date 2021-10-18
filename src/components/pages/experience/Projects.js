@@ -7,8 +7,8 @@ function Projects() {
       <span className="subHeading">Some Things I’ve Built</span>
       <br />
       <br />
-      {PROJECTS.map((project, idx) => (
-        <Project key={idx} {...project} />
+      {PROJECTS.map((project) => (
+        <Project key={project.id} {...project} />
       ))}
     </div>
   );

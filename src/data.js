@@ -53,6 +53,7 @@ export const EXPERIENCE_PAGE_TABS = [
 
 export const PROJECTS = [
   {
+    id: 1,
     title: "msk clothing",
     img: "/images/mskclothing.png",
     path: "https://cranky-varahamihira-f93d97.netlify.app",
@@ -70,6 +71,7 @@ export const PROJECTS = [
     ],
   },
   {
+    id: 2,
     title: "youtube clone",
     img: "/images/youtube.png",
     path: "https://stupefied-bassi-531f50.netlify.app/",

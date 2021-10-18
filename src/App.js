@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     history.push("/aboutme")
 
-  }, [])
+  }, [history])
   return (
     <div>
       <div className="flex lg:flex-row  flex-col ">
