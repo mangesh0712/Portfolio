@@ -5,10 +5,10 @@ import Content from "./Content";
 import Projects from "./Projects";
 
 function Portfolio() {
-  const match = useRouteMatch();
   const history = useHistory();
+  const match = useRouteMatch()
   useEffect(() => {
-    history.push(`${match.path}/fdc`);
+    history.push(`experience/fdc`);
   }, [history]);
 
   const [activatedId, setactivatedId] = useState(1);
