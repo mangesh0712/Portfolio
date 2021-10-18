@@ -1,3 +1,4 @@
+export const PP = "/images/man2.png";
 export const NAVBAR_DATA = [
   {
     id: 1,

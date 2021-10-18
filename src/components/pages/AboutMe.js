@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { PP } from "../../data";
 
 function AboutMe() {
   const [isHovering, setIsHovered] = useState(false);
@@ -55,9 +56,9 @@ function AboutMe() {
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}
               className={`absolute ${
-                !isHovering && "filter"
-              } grayscale object-cover w-80 h-72 bottom-4 right-4`}
-              src="/images/ney.jpg"
+                !isHovering ? "grayscale": "saturate-100"
+              } filter object-cover w-80 h-72 bottom-4 right-4`}
+              src={PP}
               alt=""
             />
           </div>
