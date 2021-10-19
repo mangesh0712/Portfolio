@@ -17,7 +17,7 @@ function MyCv() {
       <iframe
         title="MyCv"
         className={`${loading && "hidden"} h-screen rounded-md bg-white w-full`}
-        src="https://drive.google.com/file/d/15WakUkvN7IIBKzCBtL3h5AnQjwDgJSSn/preview"
+        src="https://drive.google.com/file/d/1KDWOT1mP5jlju1JTII2OQdY5A5YcycEe/preview"
         allow="autoplay"
       ></iframe>
     </>
