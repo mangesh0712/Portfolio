@@ -17,7 +17,7 @@ function Portfolio() {
       <span className="pageHeading">where i've worked</span>
       <br />
       <div className="flex flex-col md:flex-row w-full md:w-5/6 ml-3 ">
-        <div className="w-full md:w-4/12  flex flex-row md:flex-col justify-evenly md:justify-start ">
+        <div className="w-full mb-4 md:mb-0 md:w-4/12  flex flex-row md:flex-col justify-evenly md:justify-start ">
           {EXPERIENCE_PAGE_TABS.map((item) => (
             <Tab
               setactivatedId={setactivatedId}
@@ -27,7 +27,7 @@ function Portfolio() {
             />
           ))}
         </div>
-        <div className="w-full md:w-8/12 md:ml-6 px-5 py-3  rounded-sm">
+        <div className="w-full md:w-8/12 md:ml-6 px-5 pb-3  rounded-sm">
           <Route exact path={`${match.path}/:company`}>
             <Content />
           </Route>

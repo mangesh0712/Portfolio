@@ -9,9 +9,9 @@ function MyOffer() {
   return (
     <div className="pageContainer">
       <span className="pageHeading">my offer</span>
-      <span className="mt-5 boldBlackText">
-        A <span className="text-blue-600">full-stack web developer</span> with
-        over <span className="text-blue-600">2 years of experience</span>.
+      <span className="mt-5 ">
+        A <span className="boldBlackText">full-stack web developer</span> with
+        over <span className="boldBlackText">2 years of experience</span>.
       </span>
       <br />
       <span className="blackText">
@@ -19,15 +19,15 @@ function MyOffer() {
           I have maintained, developed and launched multiple projects from
           scratch
         </span>
-        , carrying the development of its' back-end and front-end codebases.
+        , carrying the development of it's front-end as well as back-end codebases.
         <br />
         <br />
         My current toolset includes
         <span className="boldBlackText">
           {" "}
-          Elixir Language & Phoenix Framework
+          ReactJs, {" "}
         </span>
-        , Ruby & Ruby on Rails, React, Redux, Angular, TypeScript, Docker and
+         Redux, Tailwind, TypeScript, Docker and
         all the other various frameworks, libraries and technologies related to
         them.
       </span>
@@ -56,7 +56,7 @@ function MyOffer() {
         the code development, or whatever other role you see me best in. <br />
         <br /> In cases when you already have an existing team, but you would
         still use some help,{" "}
-        <span className="text-blue-600 hover:underline">
+        <span className="text-blue-600 hover:underline capitalize">
           <Link to="/contacts">contact</Link>
         </span>{" "}
         me as well. I’ll fit in very quickly, I promise.

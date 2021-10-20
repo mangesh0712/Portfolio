@@ -9,22 +9,25 @@ function AboutMe() {
     <div className="pageContainer">
       <span className="pageHeading">about me</span>
       <div className="py-4 flex items-center">
-        <div className="w-full md:w-3/5 mr-3">
-          Hello! My name is Brittany and I enjoy creating things that live on
-          the internet. My interest in web development started back in 2012 when
-          I decided to try editing custom Tumblr themes — turns out hacking
-          together a custom reblog button taught me a lot about HTML & CSS!
+        <div className="w-full md:w-3/5 mr-3 ">
+          <div className="blackText bg-gray-100 p-2  shadow-md transform hover:scale-105 ">
+            Hello! My name is Mangesh and I enjoy creating things that live on
+            the internet. My interest in web development started back in 2018
+            when I decided to learn web development from Youtube, saying bye to
+            my electical job — that taught me a lot about HTML & CSS.
+          </div>
+          <br />
+          <span className="boldBlackText">
+            When I'm not in front of a computer screen
+          </span>
+          , I'm probably reading books, playing football or working out.
           <br />
           <br />
-          Fast-forward to today, and I’ve had the privilege of working at an
-          advertising agency, a start-up, a huge corporation, and a student-led
-          design studio. My main focus these days is building accessible,
-          inclusive products and digital experiences at Upstatement for a
-          variety of clients.
-          <br />
-          <br />
-          I also recently launched a course that covers everything you need to
-          build a web app with the Spotify API using Node & React.
+          As a web developer, I enjoy bridging the gap between engineering and
+          design — combining my technical knowledge with my keen eye for design
+          to create a beautiful product. My goal is to always build applications
+          that are scalable and efficient under the hood while providing
+          engaging, pixel-perfect user experiences
           <br />
           <br />
           <span className="font-semibold">
@@ -39,8 +42,7 @@ function AboutMe() {
           </div>
           <span className="mt-1"> Familiar : </span>
           <div className="flex flex-wrap items-center space-x-2">
-            <span className="highlight">Angular</span>
-            <span className="highlight">.net</span>
+            <span className="highlight">.Net</span>
             <span className="highlight">Typescript</span>
           </div>
           <span className="mt-1"> Tools : </span>
@@ -56,7 +58,7 @@ function AboutMe() {
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}
               className={`absolute ${
-                !isHovering ? "grayscale": "saturate-100"
+                !isHovering ? "grayscale" : "saturate-100"
               } filter object-cover w-80 h-72 bottom-4 right-4`}
               src={PATHS.PP}
               alt=""

@@ -44,11 +44,6 @@ export const EXPERIENCE_PAGE_TABS = [
     title: "bushel technologies",
     path: "/bushel",
   },
-  {
-    id: 3,
-    title: "bushel-edisphere",
-    path: "/edisphere",
-  },
 ];
 
 export const PROJECTS = [
@@ -57,9 +52,7 @@ export const PROJECTS = [
     title: "msk clothing",
     img: "/images/mskclothing.png",
     path: "https://cranky-varahamihira-f93d97.netlify.app",
-    description: `“Tailwind CSS is the only framework that I've seen scale on large
-              teams. It’s easy to customize, adapts to any design, and the build
-              size is tiny.”`,
+    description: `“It's an E-com website let's you sign in by google and integrated with stripe payment system, completely responsive and mobile friendly ”`,
     techUsed: [
       "react",
       "tailwind",
@@ -75,18 +68,8 @@ export const PROJECTS = [
     title: "youtube clone",
     img: "/images/youtube.png",
     path: "https://stupefied-bassi-531f50.netlify.app/",
-    description: `“Tailwind CSS is the only framework that I've seen scale on large
-              teams. It’s easy to customize, adapts to any design, and the build
-              size is tiny.”`,
-    techUsed: [
-      "react",
-      "tailwind",
-      "firebase",
-      "sso",
-      "react-hooks",
-      "redux",
-      "react-router",
-    ],
+    description: `“Its a yuotube like clone which let's you play and search videos ,completely responsive and mobile friendly. ”`,
+    techUsed: ["react", "tailwind", "firebase", "react-hooks", "react-router"],
   },
 ];
 
@@ -96,29 +79,20 @@ export const COMPANIES = {
     role: "junior developer",
     timeSpan: "june - september 2019",
     timeLine: [
-      "Worked with a team of three designers to build a marketing website and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern",
-      "Worked with a team of three designers to build a marketing website and e-commerce platform for blista",
-      "Worked website and e-commerce platform for blistabloc, an ambitious startup originating from Northeaste",
+      "Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery",
+      "Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness",
+      "Engineered and maintained major features of  web app using ES6, Handlebars, ReactJs, Tailwind , .net",
     ],
   },
   bushel: {
     name: "bushel technologies",
     role: "software developer",
-    timeSpan: "november 2019 - december 2019",
+    timeSpan: "november 2019 - july 2021",
     timeLine: [
-      "Worked with a team of three designers to build a marketing website and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern",
-      "Worked with a team of three designers to build a marketing website and e-commerce platform for blista",
-      "Worked website and e-commerce platform for blistabloc, an ambitious startup originating from Northeaste",
-    ],
-  },
-  edisphere: {
-    name: "bushel - Edisphere",
-    role: "senior web-developer",
-    timeSpan: "december 2019 - july 2029",
-    timeLine: [
-      "Worked with a team of three designers to build a marketing website and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern",
-      "Worked with a team of three designers to build a marketing website and e-commerce platform for blista",
-      "Worked website and e-commerce platform for blistabloc, an ambitious startup originating from Northeaste",
+      "Developed and maintained code for Business to Business middleware application for accounting the transactions  primarily using ReactJs, Typescript",
+      "Feature and performance enhancements – used react- hooks.",
+      "Integration of API’s developed by back-end developers with client-side logic",
+      "Interfaced with clients on a weekly basis, providing technological expertise",
     ],
   },
 };
@@ -126,24 +100,22 @@ export const COMPANIES = {
 export const MY_OFFER_LIST_DATA = {
   keyPoints: [
     "verifying good UI/UX design,",
-    "leading/co-developing the back-end and front-end,",
-    "setting up the CI/CD,",
-    "mentoring the team,",
+    "leading/co-developing the front-end and back-end,",
     "estimating tasks,",
+    "setting up the CI/CD,",
     "researching possible techs,",
-    "leading, launching and monitoring the project.",
+    "launching and monitoring the project.",
   ],
   frontend: [
     "lead TypeScript/JavaScript development: bootstraping, refactoring, improving the structure, reliability, build setup;",
-    "full integration of front-end development using tools like Webpack with features like automatic code reload, code minifications, multiple environments support, CI/CD, Storybook components library, automated testing of accessibility, server-side render and visual snapshots,",
+    "full integration of front-end development using tools like , code minifications, multiple environments support, CI/CD, Storybook components library, automated testing of accessibility, server-side render,",
     "good sense of design and UX,",
-    "huge experience in almost all of the JS ecosystems, by having used in the past many libraries like Next.js, React, Redux, Redux-Observable, RxJS, Angular, Ionic Framework, Backbone, jQuery, Lodash/Underscore and many else.",
+    "Good experience in almost all of the JS ecosystems, by having used in the past many libraries like Next.js, React, Redux, Angular, jQuery, Lodash/Underscore and many else.",
   ],
   backend: [
-    "lead development of backends in Elixir/Ruby,",
-    "splitting the back-end into separate domains and microservices,",
-    "splitting the back-end into separate domains and microservices,",
-    "splitting the back-end into separate domains and microservices,",
-    "splitting the back-end into separate domains and microservices,",
+    "cooperation with APIs",
+    "can also work with authentication and autherization servers,",
+    "refactoring existing applications, by improving code readibility,",
+    "using different types of databases (like MySQL, mongoDB)",
   ],
 };

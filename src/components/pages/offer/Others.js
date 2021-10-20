@@ -6,37 +6,19 @@ import { MY_OFFER_LIST_DATA } from "../../../data";
 function Others() {
   return (
     <>
-      <span className="subHeading text-blue-600">
+      <span className="subHeading ">
         <FontAwesomeIcon icon={faTerminal} size="1x" className="mr-2" />
-        what about dev-ops, design, ui, project leadership, team mentorship
+        what about dev-ops, design, ui
       </span>
       <span className="mt-5 boldBlackText">
-        A <span className="text-blue-600">full-stack web developer</span> with
-        over <span className="text-blue-600">2 years of experience</span>.
+        During my time I have created and released some websites.
       </span>
       <br />
       <span className=" blackText ">
-        <span className="boldBlackText">
-          I have maintained, developed and launched multiple projects from
-          scratch
-        </span>
-        , carrying the development of its' back-end and front-end codebases.
-        <br />
-        <br />
-        My current toolset includes
-        <span className="boldBlackText">
-          {" "}
-          Elixir Language & Phoenix Framework
-        </span>
-        , Ruby & Ruby on Rails, React, Redux, Angular, TypeScript, Docker and
-        all the other various frameworks, libraries and technologies related to
-        them.
+        Thus, not only I have coded their front-end codebases, but often I also
+        had to care about other things needed in a successful web application
+        project:
       </span>
-      <br />
-      <span className="boldBlackText">
-        I can help you with all the sides of your project:
-      </span>
-
       <br />
       <ul className="list-square ml-10">
         {MY_OFFER_LIST_DATA.keyPoints.map((point, idx) => (
