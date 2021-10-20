@@ -30,10 +30,18 @@ export const NavItem = ({ title, path, id, activatedId, setactivatedId }) => {
         <div
           onClick={() => setactivatedId(id)}
           className={`${
-            selected ? "sm:text-gray-100 text-gray-900 cursor-not-allowed bg-gray-100 sm:bg-transparent px-1 rounded-sm" : "text-gray-500"
+            selected
+              ? "  bg-gray-100  md:bg-transparent cursor-not-allowed px-1 rounded-sm"
+              : ""
           } hover:text-gray-100 group transform  `}
         >
-          <span className="text-xs sm:text-sm md:text-md">{title}</span>
+          <span
+            className={`text-xs sm:text-sm md:text-md ${
+              selected ? "text-gray-900 md:text-gray-100" : "text-gray-500"
+            }`}
+          >
+            {title}
+          </span>
           <FontAwesomeIcon
             className={`ml-3 ${
               selected ? "text-gray-100" : "text-gray-500"

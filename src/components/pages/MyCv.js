@@ -5,7 +5,7 @@ function MyCv() {
   useEffect(() => {
     setTimeout(() => {
       setloading(false);
-    }, 2000);
+    }, 3000);
   }, []);
   return (
     <>
