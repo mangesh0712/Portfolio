@@ -18,7 +18,7 @@ function SocialSites() {
         <SocialIcon path={PATHS.GMAIL} icon={faEnvelope} />
         <SocialIcon path={PATHS.GITHUB} icon={faGithubSquare} />
         <SocialIcon path={PATHS.LINKEDIN} icon={faLinkedinIn} />
-        <SocialIcon path={PATHS.LINKEDIN} icon={faInstagramSquare} />
+        <SocialIcon path={PATHS.INSTA} icon={faInstagramSquare} />
       </div>
     </div>
   );
