@@ -51,6 +51,11 @@ const Project = ({ title, img, path, description, techUsed }) => {
             <span className="highlight">{tech}</span>
           ))}
         </div>
+        <button
+          onClick={() => setClicked(true)}
+          className="p-1 bg-gray-200 rounded-sm shadow-sm hover:text-gray-500 text-black px-2">
+          Go to Project
+        </button>
       </div>
     </figure>
   );

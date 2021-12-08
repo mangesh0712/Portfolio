@@ -42,7 +42,7 @@ function AboutMe() {
           </div>
           <span className="mt-1"> Familiar : </span>
           <div className="flex flex-wrap items-center space-x-2">
-            <span className="highlight">.Net</span>
+            <span className="highlight">NodeJs</span>
             <span className="highlight">Typescript</span>
           </div>
           <span className="mt-1"> Tools : </span>

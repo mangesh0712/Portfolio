@@ -7,6 +7,7 @@ import {
   faInstagramSquare,
 } from "@fortawesome/free-brands-svg-icons";
 import { PATHS } from "../data";
+import "../index.css"
 
 function SocialSites() {
   return (
@@ -28,9 +29,9 @@ export default SocialSites;
 
 const SocialIcon = ({ path, icon }) => {
   return (
-    <a href={path}>
+    <a href={path} className="navBtn">
       <FontAwesomeIcon
-        className="hover:text-gray-100 cursor-pointer"
+        className="navBtn"
         size="lg"
         icon={icon}
       />

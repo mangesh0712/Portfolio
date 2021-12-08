@@ -36,7 +36,7 @@ export const NavItem = ({ title, path, id, activatedId, setactivatedId }) => {
           } hover:text-gray-100 group transform  `}
         >
           <span
-            className={`text-xs sm:text-sm md:text-md ${
+            className={`text-xs sm:text-sm md:text-md navBtn ${
               selected ? "text-gray-900 md:text-gray-100" : "text-gray-500"
             }`}
           >

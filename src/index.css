@@ -14,12 +14,15 @@
     @apply flex flex-col font-serif bg-white rounded-sm shadow-md p-3 lg:mr-28 lg:p-5;
   }
   .pageHeading {
-    @apply uppercase text-gray-700 font-normal text-2xl md:text-4xl ;
+    @apply uppercase text-gray-700 font-normal text-2xl md:text-4xl;
   }
   .subHeading {
-    @apply uppercase text-gray-700 font-light text-xl md:text-2xl ;
+    @apply uppercase text-gray-700 font-light text-xl md:text-2xl;
   }
   .highlight {
     @apply bg-white shadow-md  px-2 my-1 font-mono  text-sm font-normal border-2 border-black rounded-sm text-black;
+  }
+  .navBtn {
+    @apply cursor-pointer hover:scale-125 transition-all duration-150 ease-out;
   }
 }
