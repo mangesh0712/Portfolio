@@ -1,5 +1,6 @@
 export const PATHS = {
   PP: "/images/man2.png",
+  MOBILE: 9022546526,
   INSTA: "https://www.instagram.com/mangesh.707/",
   GMAIL: "mailto:mangeshkhandale327@gmail.com",
   LINKEDIN: "https://www.linkedin.com/in/mangesh0712/",
@@ -44,6 +45,11 @@ export const EXPERIENCE_PAGE_TABS = [
     title: "bushel technologies",
     path: "/bushel",
   },
+  {
+    id: 3,
+    title: "Cognizant (CTS)",
+    path: "/cognizant",
+  },
 ];
 
 export const PROJECTS = [
@@ -87,12 +93,21 @@ export const COMPANIES = {
   bushel: {
     name: "bushel technologies",
     role: "software developer",
-    timeSpan: "november 2019 - july 2021",
+    timeSpan: "november 2019 - dec 2021",
     timeLine: [
-      "Developed and maintained code for Business to Business middleware application for accounting the transactions  primarily using ReactJs, Typescript",
       "Feature and performance enhancements – used react- hooks.",
       "Integration of API’s developed by back-end developers with client-side logic",
       "Interfaced with clients on a weekly basis, providing technological expertise",
+    ],
+  },
+  cognizant: {
+    name: "Cognizant",
+    role: "senior frontend developer",
+    timeSpan: "from jan 2022",
+    timeLine: [
+      "Developed and maintained code for Business to Business middleware application for accounting the transactions  primarily using ReactJs, Typescript",
+      "Feature and performance enhancements – used react- hooks.",
+      "Working for Socite General Client on product called IAppli (Application monitoring app) ",
     ],
   },
 };

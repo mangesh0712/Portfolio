@@ -17,6 +17,13 @@ function AboutMe() {
             my electical job — that taught me a lot about HTML & CSS.
           </div>
           <br />
+          <span className="font-sans pb-2 boldBlackText ">
+            Mobile :{" "}
+            <span className="hover:bg-gray-100 rounded-md px-2 py-1">
+              9022546526
+            </span>
+          </span>
+          <br />
           <span className="boldBlackText">
             When I'm not in front of a computer screen
           </span>
