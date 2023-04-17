@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import {
   faLinkedin,
   faGithubAlt,
@@ -32,6 +32,12 @@ function Contacts() {
           address="mangesh0712"
           icon={faLinkedin}
           path={PATHS.LINKEDIN}
+        />
+        <ContactItems
+          title="Mobile"
+          address="+919022546526"
+          icon={faPhone}
+          path=""
         />
       </div>
     </div>
