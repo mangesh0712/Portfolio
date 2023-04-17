@@ -65,7 +65,7 @@ function AboutMe() {
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}
               className={`absolute ${
-                !isHovering ? "grayscale" : "saturate-100"
+                !isHovering ?  "saturate-100" :"grayscale" 
               } filter object-cover w-80 h-72 bottom-4 right-4`}
               src={PATHS.PP}
               alt=""

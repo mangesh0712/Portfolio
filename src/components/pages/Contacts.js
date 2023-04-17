@@ -4,7 +4,6 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
   faLinkedin,
   faGithubAlt,
-  faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { PATHS } from "../../data";
 
@@ -34,12 +33,6 @@ function Contacts() {
           icon={faLinkedin}
           path={PATHS.LINKEDIN}
         />
-        <ContactItems
-          title="Instagram"
-          address="Mangesh Khandale"
-          icon={faInstagram}
-          path={PATHS.INSTA}
-        />
       </div>
     </div>
   );
@@ -49,7 +42,8 @@ export default Contacts;
 
 const ContactItems = ({ title, icon, address, path }) => {
   return (
-    <a href={path}>
+    // rel and target blank things are for opening the link in another tab
+    <a href={path} rel="noreferrer" target="_blank">
       <div className="flex items-center w-full md:w-10/12 lg:6/12 my-3">
         <span className="font-sans font-light text-md md:text-lg w-3/12 md:w-1/6 cursor-default">
           {title} :

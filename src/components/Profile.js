@@ -7,8 +7,9 @@ function Profile() {
       <img
         src={PATHS.PP}
         alt=""
-        className="rounded-full filter grayscale h-28 w-28 md:h-40 md:w-40 object-contain"
+        className="rounded-full filter h-28 w-28 md:h-40 md:w-40 object-contain"
       />
+
       <span className="uppercase font-sans p-1 mt-1 md:mt-4 text-md md:text-xl font-bold ">
         mangesh khandale
       </span>
@@ -18,5 +19,4 @@ function Profile() {
     </div>
   );
 }
-
 export default Profile;

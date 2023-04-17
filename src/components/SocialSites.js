@@ -4,7 +4,6 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
   faLinkedinIn,
   faGithubSquare,
-  faInstagramSquare,
 } from "@fortawesome/free-brands-svg-icons";
 import { PATHS } from "../data";
 import "../index.css"
@@ -19,7 +18,6 @@ function SocialSites() {
         <SocialIcon path={PATHS.GMAIL} icon={faEnvelope} />
         <SocialIcon path={PATHS.GITHUB} icon={faGithubSquare} />
         <SocialIcon path={PATHS.LINKEDIN} icon={faLinkedinIn} />
-        <SocialIcon path={PATHS.INSTA} icon={faInstagramSquare} />
       </div>
     </div>
   );

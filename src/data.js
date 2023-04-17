@@ -37,22 +37,75 @@ export const NAVBAR_DATA = [
 export const EXPERIENCE_PAGE_TABS = [
   {
     id: 1,
-    title: "fdc",
-    path: "/fdc",
+    title: "Cognizant (CTS)",
+    path: "/cognizant",
   },
   {
     id: 2,
+    title: "Masai",
+    path: "/masai",
+  },
+  {
+    id: 3,
     title: "bushel technologies",
     path: "/bushel",
   },
   {
-    id: 3,
-    title: "Cognizant (CTS)",
-    path: "/cognizant",
+    id: 4,
+    title: "fdc",
+    path: "/fdc",
   },
 ];
 
 export const PROJECTS = [
+  {
+    id: 3,
+    title: "Learning Management System",
+    img: "/images/LEM.png",
+    path: "https://learning-management-system-masai.netlify.app",
+    description: `“This Project is About creating Learning Management system for Masai school which provides training on full-stack web developement training. Students can signup to the site and login to the site and search for lectures and watch previous lectures and attend live lectures and submit assignments. and save lectures by bookmarking them. And on admin side admins can login to the site and upload lectures and search for lectures copy lectures and edit lectures and delete lectures.”`,
+    techUsed: [
+      "react",
+      "typescript",
+      "chakra UI",
+      "java",
+      "react-hooks",
+      "redux", 
+      "react-router",
+    ],
+  },
+  {
+    id: 7,
+    title: "QuesTyme",
+    img: "/images/que.png",
+    path: "https://ques-tymes.netlify.app/",
+    description: `This is the Masai Build and Earn collaborative Project.The application provides the features of interview schedulling and one on one session.The highlighting fuctionalities are login/signUp ,calender booking, email notification and reminder and other required functionalities also.`,
+    techUsed: [
+      "react",
+      "typescript",
+      "chakra UI",
+      "java",
+      "react-hooks",
+      "redux", 
+      "react-router",
+    ],
+  },
+  {
+    id: 4,
+    title: "MSK clothing",
+    img: "/images/mskclothing.png",
+    path: "https://cranky-varahamihira-f93d97.netlify.app",
+    description: `“It's an E-com website let's you sign in by google and integrated with stripe payment system, completely responsive and mobile friendly ”`,
+    techUsed: [
+      "react",
+      "tailwind",
+      "firebase",
+      "sso",
+      "react-hooks",
+      "redux",
+      "react-router",
+    ],
+  },
   {
     id: 1,
     title: "msk clothing",
@@ -108,6 +161,17 @@ export const COMPANIES = {
       "Developed and maintained code for Business to Business middleware application for accounting the transactions  primarily using ReactJs, Typescript",
       "Feature and performance enhancements – used react- hooks.",
       "Working for Socite General Client on product called IAppli (Application monitoring app) ",
+    ],
+  },
+  masai: {
+    name: "masai",
+    role: "Engineering Manager",
+    timeSpan: "from feb 2023 to apr 2023",
+    timeLine: [
+      "Project planning: Responsible for creating a project plan and timeline that outlines the project's scope, goals, and deliverables.",
+      "Team management: Oversees a team of engineers or developers, providing guidance, mentorship, and support. They are responsible for ensuring that team members have the resources they need to complete their work",
+      "Technical leadership: Responsible for making technical decisions that impact the project, such as selecting the appropriate technologies, tools, and frameworks. They must stay up-to-date with the latest trends and advancements in web development to ensure the project stays current.",
+      "Quality assurance: Responsible for ensuring that the codebase is maintained and optimized for performance, scalability, and security. They must establish best practices for code review, testing, and deployment to ensure the project meets quality standards"
     ],
   },
 };

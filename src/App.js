@@ -23,3 +23,6 @@ function App() {
 }
 
 export default App;
+
+//:TODO: Run this command in terminal if error occurs on npm start
+// export NODE_OPTIONS=--openssl-legacy-provider 

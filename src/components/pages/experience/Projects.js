@@ -4,7 +4,7 @@ import { PROJECTS } from "../../../data";
 function Projects() {
   return (
     <div className="">
-      <span className="subHeading">Some Things I’ve Built</span>
+      <span className="subHeading">Some Things I’ve Worked On ( Unofficial )</span>
       <br />
       <br />
       {PROJECTS.map((project) => (
@@ -21,9 +21,11 @@ const Project = ({ title, img, path, description, techUsed }) => {
 
   useEffect(() => {
     if (clicked) {
-      window.location.assign(path);
+      var newTab = window.open();
+      newTab.location.assign(path);
     }
   });
+
   const [isHovering, setIsHovered] = useState(false);
   const onMouseEnter = () => setIsHovered(true);
   const onMouseLeave = () => setIsHovered(false);
