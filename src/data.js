@@ -94,7 +94,7 @@ export const PROJECTS = [
     id: 4,
     title: "MSK clothing",
     img: "/images/mskclothing.png",
-    path: "https://cranky-varahamihira-f93d97.netlify.app",
+    path: "https://msk-clothing.netlify.app",
     description: `“It's an E-com website let's you sign in by google and integrated with stripe payment system, completely responsive and mobile friendly ”`,
     techUsed: [
       "react",
@@ -106,27 +106,12 @@ export const PROJECTS = [
       "react-router",
     ],
   },
-  {
-    id: 1,
-    title: "msk clothing",
-    img: "/images/mskclothing.png",
-    path: "https://cranky-varahamihira-f93d97.netlify.app",
-    description: `“It's an E-com website let's you sign in by google and integrated with stripe payment system, completely responsive and mobile friendly ”`,
-    techUsed: [
-      "react",
-      "tailwind",
-      "firebase",
-      "sso",
-      "react-hooks",
-      "redux",
-      "react-router",
-    ],
-  },
+  
   {
     id: 2,
     title: "youtube clone",
     img: "/images/youtube.png",
-    path: "https://stupefied-bassi-531f50.netlify.app/",
+    path: "https://youtube-clone77.netlify.app",
     description: `“Its a yuotube like clone which let's you play and search videos ,completely responsive and mobile friendly. ”`,
     techUsed: ["react", "tailwind", "firebase", "react-hooks", "react-router"],
   },
